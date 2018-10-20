@@ -52,4 +52,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation project(':joker')
     implementation project(':jokeandroidlib')
+    implementation project(':backend')
 }
