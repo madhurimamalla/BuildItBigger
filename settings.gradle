@@ -1,1 +1,1 @@
-include ':app', ':backend', ':joker'
+include ':app', ':backend', ':joker', ':jokeandroidlib'
