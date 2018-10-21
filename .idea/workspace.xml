@@ -10,6 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d671577-d164-4c3f-997b-309e8d6282e2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/AndroidTest/java/com/udacity/gradle/builditbigger/backend/MyEndPointTest.java" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" />
@@ -26,13 +28,58 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/gradle/builditbigger/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/gradle/builditbigger/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/backend/backend.iml" afterPath="$PROJECT_DIR$/backend/backend.iml" />
-      <change beforePath="$PROJECT_DIR$/backend/build.gradle" afterPath="$PROJECT_DIR$/backend/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/backend/build/classes/java/main/com/udacity/gradle/builditbigger/backend/MyEndpoint.class" afterPath="$PROJECT_DIR$/backend/build/classes/java/main/com/udacity/gradle/builditbigger/backend/MyEndpoint.class" />
-      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/classes/com/udacity/gradle/builditbigger/backend/MyEndpoint.class" afterPath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/classes/com/udacity/gradle/builditbigger/backend/MyEndpoint.class" />
-      <change beforePath="$PROJECT_DIR$/backend/build/libs/backend.war" afterPath="$PROJECT_DIR$/backend/build/libs/backend.war" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/udacity/gradle/builditbigger/backend/MyEndpoint.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/udacity/gradle/builditbigger/backend/MyEndpoint.java" />
+      <change beforePath="$PROJECT_DIR$/backend/build/dev-appserver-out/dev_appserver.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/distributions/backend-discoveryDocs.zip" afterPath="$PROJECT_DIR$/backend/build/distributions/backend-discoveryDocs.zip" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/appengine-web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/classes/com/udacity/gradle/builditbigger/backend/MyBean.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/classes/com/udacity/gradle/builditbigger/backend/MyEndpoint.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/appengine-api-1.0-sdk-1.9.56.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/commons-codec-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/commons-lang3-3.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/endpoints-framework-2.0.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/google-api-client-1.23.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/google-api-client-appengine-1.21.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/google-api-client-servlet-1.21.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/google-http-client-1.23.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/google-http-client-android-1.23.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/google-http-client-appengine-1.21.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/google-http-client-jackson2-1.23.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/google-http-client-jdo-1.21.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/google-oauth-client-1.23.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/google-oauth-client-appengine-1.21.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/google-oauth-client-servlet-1.21.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/guava-19.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/guava-jdk5-17.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/httpclient-4.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/httpcore-4.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/jackson-annotations-2.6.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/jackson-core-2.6.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/jackson-databind-2.6.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/jackson-dataformat-yaml-2.4.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/jackson-datatype-joda-2.4.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/jdo2-api-2.3-eb.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/joda-time-2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/joker.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/jsr305-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/servlet-api-2.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/slf4j-api-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/slf4j-nop-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/snakeyaml-1.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/swagger-annotations-1.5.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/swagger-core-1.5.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/swagger-models-1.5.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/transaction-api-1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/logging.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/exploded-backend/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/libs/backend.jar" afterPath="$PROJECT_DIR$/backend/build/libs/backend.jar" />
+      <change beforePath="$PROJECT_DIR$/backend/build/libs/backend.war" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/build/tmp/war/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jokeandroidlib/jokeandroidlib.iml" afterPath="$PROJECT_DIR$/jokeandroidlib/jokeandroidlib.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,36 +102,15 @@
         <task path="$PROJECT_DIR$/app">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Project5" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Project5" type="f1a62948:ProjectNode" />
-                <item name=":backend" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Project5" type="f1a62948:ProjectNode" />
-                <item name=":backend" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Project5" type="f1a62948:ProjectNode" />
-                <item name=":backend" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="app engine standard environment" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Project5" type="f1a62948:ProjectNode" />
-                <item name=":backend" type="2d1252cf:ModuleNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -94,38 +120,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyEndpoint.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/udacity/gradle/builditbigger/backend/MyEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/udacity/gradle/builditbigger/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-934">
-              <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -4440,10 +4435,11 @@
         <option value="$PROJECT_DIR$/jokeandroidlib/src/main/res/layout/content_joke.xml" />
         <option value="$PROJECT_DIR$/jokeandroidlib/src/main/res/layout/activity_joke.xml" />
         <option value="$PROJECT_DIR$/jokeandroidlib/src/main/java/mmalla/android/com/jokeandroidlib/JokeActivity.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/backend/build.gradle" />
         <option value="$PROJECT_DIR$/backend/src/main/java/com/udacity/gradle/builditbigger/backend/MyEndpoint.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/udacity/gradle/builditbigger/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/AndroidTest/java/com/udacity/gradle/builditbigger/backend/MyEndPointTest.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -4468,7 +4464,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -4492,14 +4489,14 @@
               <item name="Project5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project5" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidTest" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -4507,17 +4504,16 @@
               <item name="Project5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidTest" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="builditbigger" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4552,6 +4548,31 @@
     </option>
   </component>
   <component name="RunManager" selected="Android App.app">
+    <configuration name="MyEndPointTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.udacity.gradle.builditbigger.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.udacity.gradle.builditbigger.backend" />
+      <option name="MAIN_CLASS_NAME" value="com.udacity.gradle.builditbigger.backend.MyEndPointTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/app" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -4611,10 +4632,10 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="Project5:backend [appengineStart]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Project5 [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -4622,17 +4643,17 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="appengineStart" />
+            <option value="check" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="Project5:backend [appengineStop]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Project5 [testDebugUnitTest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -4640,7 +4661,43 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="appengineStop" />
+            <option value="testDebugUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="Project5 [testReleaseUnitTest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="testReleaseUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="Project5 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -4692,15 +4749,21 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
-    <list size="3">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.Project5:backend [appengineStart]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.Project5:backend [appengineStop]" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.Project5 [test]" />
+      <item index="2" class="java.lang.String" itemvalue="Android JUnit.MyEndPointTest" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.Project5 [testDebugUnitTest]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.Project5 [testReleaseUnitTest]" />
+      <item index="5" class="java.lang.String" itemvalue="Gradle.Project5 [check]" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.Project5:backend [appengineStop]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.Project5:backend [appengineStart]" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.Project5 [check]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.Project5 [testReleaseUnitTest]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.Project5 [testDebugUnitTest]" />
+        <item index="3" class="java.lang.String" itemvalue="Android JUnit.MyEndPointTest" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.Project5 [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -4720,6 +4783,20 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MyEndPointTest - 2018.10.20 at 17h 14m 10s.xml">
+      <configuration name="MyEndPointTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="MyEndPointTest_testEndPoint - 2018.10.20 at 17h 11m 52s.xml">
+      <configuration name="MyEndPointTest.testEndPoint" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="Project5_[check] - 2018.10.20 at 17h 15m 43s.xml">
+      <configuration name="Project5 [check]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Project5_[check] - 2018.10.20 at 17h 17m 39s.xml">
+      <configuration name="Project5 [check]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -4731,39 +4808,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5126405" sideWeight="0.50572246" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35955057" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51123595" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48033708" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5126405" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35955057" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51123595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48033708" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22389127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35533708" sideWeight="0.49427754" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19098713" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56320226" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19098713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -4806,25 +4881,37 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/udacity/gradle/builditbigger/backend/MyEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/joker/src/main/java/mmalla/android/com/joker/Joker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding>
-            <element signature="e#84#85#0" expanded="false" />
-            <element signature="e#137#138#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4832,7 +4919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4848,7 +4934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
           <caret line="47" column="67" lean-forward="false" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4859,7 +4944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4870,7 +4954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4883,14 +4966,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -4905,10 +4988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding>
-            <element signature="e#84#85#0" expanded="false" />
-            <element signature="e#137#138#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4916,21 +4995,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jokeandroidlib/src/main/res/layout/content_joke.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="40" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jokeandroidlib/src/main/res/layout/content_joke.xml" />
     <entry file="file://$PROJECT_DIR$/jokeandroidlib/src/main/res/layout/activity_joke.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -4938,7 +5006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4946,17 +5013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4964,15 +5020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="54" column="38" lean-forward="true" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4980,7 +5027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4988,14 +5034,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-934">
           <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/AndroidTest/java/com/udacity/gradle/builditbigger/backend/MyEndPointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/udacity/gradle/builditbigger/backend/MyEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="149">
+          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding />
         </state>
       </provider>
