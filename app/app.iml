@@ -213,8 +213,5 @@
     <orderEntry type="module" module-name="backend" />
     <orderEntry type="module" module-name="jokeandroidlib" />
     <orderEntry type="module" module-name="joker" />
-    <orderEntry type="module" module-name="backend" />
-    <orderEntry type="module" module-name="jokeandroidlib" />
-    <orderEntry type="module" module-name="joker" />
   </component>
 </module>
