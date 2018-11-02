@@ -1,4 +1,4 @@
-package com.udacity.gradle.builditbigger;
+package com.udacity.gradle.builditbigger.free;
 
 import android.os.Bundle;
 import android.content.Context;
@@ -10,8 +10,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 import android.content.Intent;
+import com.udacity.gradle.builditbigger.R;
 
-import mmalla.android.com.joker.Joker;
 import mmalla.android.com.jokeandroidlib.JokeActivity;
 import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 
@@ -79,10 +79,9 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 context = params[0].first;
-                String name = params[0].second;
 
                 try {
-                    return myApiService.sayHi(name).execute().getData();
+                    return myApiService.sayHi().execute().getData();
                 } catch (IOException e) {
                     return e.getMessage();
                 }
@@ -90,7 +89,6 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             protected void onPostExecute(String result) {
-                Toast.makeText(context, result, Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(MainActivity.this , JokeActivity.class);
                 intent.putExtra("JOKE_TEXT", result);
                 startActivity(intent);
@@ -99,9 +97,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void tellJoke(View view) {
-        Joker joker = new Joker();
-        String jokeText = joker.getJoke();
-        Toast.makeText(this, jokeText, Toast.LENGTH_SHORT).show();
         new EndpointsAsyncTask().execute(new Pair<Context, String>(this, "Manfred"));
     }
 }
