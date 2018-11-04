@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     return myApiService.sayHi().execute().getData();
                 } catch (IOException e) {
-                    return e.getMessage();
+                    return null;
                 }
             }
 

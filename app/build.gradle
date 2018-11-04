@@ -16,12 +16,12 @@ android {
 
     defaultConfig {
         applicationId "com.udacity.gradle.builditbigger"
-        minSdkVersion 16
+        minSdkVersion 18
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -44,14 +44,14 @@ android {
         free {
             applicationId "com.udacity.gradle.builditbigger.free"
             versionName "1.0-free"
-            minSdkVersion 16
+            minSdkVersion 18
             targetSdkVersion 26
             versionCode 1
         }
         notfree {
             applicationId "com.udacity.gradle.builditbigger.notfree"
             versionName "1.0-notfree"
-            minSdkVersion 16
+            minSdkVersion 18
             targetSdkVersion 26
             versionCode 1
         }
@@ -93,9 +93,15 @@ dependencies {
     implementation 'com.google.api-client:google-api-client:1.26.0'
     implementation 'com.google.http-client:google-http-client-android:1.26.0'
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
-    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
+
     testImplementation 'junit:junit:4.12'
     implementation project(':jokeandroidlib')
+    androidTestImplementation 'androidx.test:runner:1.1.0'
+    androidTestImplementation 'androidx.test:rules:1.1.0'
+    // Optional -- Hamcrest library
+    androidTestImplementation 'org.hamcrest:hamcrest-library:1.3'
+    // Optional -- UI testing with Espresso
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    // Optional -- UI testing with UI Automator
+    androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'
 }

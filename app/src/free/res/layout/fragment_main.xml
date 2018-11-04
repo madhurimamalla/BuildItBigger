@@ -16,6 +16,7 @@ tools:context="com.udacity.gradle.builditbigger.free.MainActivityFragment">
     android:text="@string/instructions" />
 
 <Button
+    android:id="@+id/joke_button"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_below="@+id/instructions_text_view"
